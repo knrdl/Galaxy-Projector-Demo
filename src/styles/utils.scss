@@ -1,0 +1,38 @@
+.flex {
+  display: flex;
+
+  &.center {
+    justify-content: center;
+    align-items: center;
+  }
+
+  &.content-center {
+    justify-content: center;
+  }
+
+  &.content-end {
+    justify-content: flex-end;
+  }
+
+  &.content-between {
+    justify-content: space-between;
+  }
+
+  &.content-around {
+    justify-content: space-around;
+  }
+
+  &.items-center {
+    align-items: center;
+  }
+
+  &.column {
+    flex-direction: column;
+  }
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+$hue-range: linear-gradient(left, hsla(0, 100%, 50%, 1), hsla(10, 100%, 50%, 1), hsla(20, 100%, 50%, 1), hsla(30, 100%, 50%, 1), hsla(40, 100%, 50%, 1), hsla(50, 100%, 50%, 1), hsla(60, 100%, 50%, 1), hsla(70, 100%, 50%, 1), hsla(80, 100%, 50%, 1), hsla(90, 100%, 50%, 1), hsla(100, 100%, 50%, 1), hsla(110, 100%, 50%, 1), hsla(120, 100%, 50%, 1), hsla(130, 100%, 50%, 1), hsla(140, 100%, 50%, 1), hsla(150, 100%, 50%, 1), hsla(160, 100%, 50%, 1), hsla(170, 100%, 50%, 1), hsla(180, 100%, 50%, 1), hsla(190, 100%, 50%, 1), hsla(200, 100%, 50%, 1), hsla(210, 100%, 50%, 1), hsla(220, 100%, 50%, 1), hsla(230, 100%, 50%, 1), hsla(240, 100%, 50%, 1), hsla(250, 100%, 50%, 1), hsla(260, 100%, 50%, 1), hsla(270, 100%, 50%, 1), hsla(280, 100%, 50%, 1), hsla(290, 100%, 50%, 1), hsla(300, 100%, 50%, 1), hsla(310, 100%, 50%, 1), hsla(320, 100%, 50%, 1), hsla(330, 100%, 50%, 1), hsla(340, 100%, 50%, 1), hsla(350, 100%, 50%, 1), hsla(360, 100%, 50%, 1));
